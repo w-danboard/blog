@@ -1,104 +1,118 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
-    <!--<link rel="shortcut icon" href="/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="css/fonts/iconfont.css">-->
+    <title>wl-danboard</title>
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body>
-<!-- wrap -->
-<div class="wl-wrap">
-    <!-- blog header -->
-    <div class="wl-header">
-        我是头部
-    </div>
-    <!-- main -->
-    <div class="wl-main wl-relative">
-        <!-- sidebar -->
-        <div class="wl-sidebar">
+<!-- 外层 -->
+<div class="db-wrapper">
+    <!-- 头部 -->
+    <header class="db-clearfix db-header">
+        <!--logo-->
+        <h1 class="db-logo db-fl">wl-danboard</h1>
+        <nav class="db-fr db-nav">
             <ul>
-                <li>
-                    <h2 style="margin-bottom: 8px">wl-notes</h2>
+                <li class="active">
+                    <a href="javascript:void(0)">主页</a>
                 </li>
                 <li>
-                    <a href="#start">start</a>
+                    <a href="javascript:void(0)">关于我</a>
                 </li>
-                <li>
-                    <a href="call-apply-bind.html" class="change-example-a">正则表达式&正则实战应用&表单验证</a>
-                </li>
-                <li>
-                    <a href="#color">Color 色彩</a>
-                </li>
-                <li>
-                    <a href="#font">Font 字体</a>
-                </li>
-                <li>
-                    <a href="#icon">Icon 图标</a>
-                </li>
-                <li>
-                    <a href="#button">Button 按钮</a>
-                </li>
-                <li>
-                    <a href="#radio">Radio 单选按钮</a>
-                </li>
-                <li>
-                    <a href="#checkbox">Checkbox 多选按钮</a>
-                </li>
-                <li>
-                    <a href="#switch">Switch 开关</a>
-                </li>
-                <li>
-                    <a href="#input">Input 文本框</a>
-                </li>
-                <li>
-                    <a href="#textarea">Textarea 文本域</a>
-                </li>
-                <li>
-                    <a href="#select">Select 下拉框</a>
-                </li>
-                <li>
-                    <a href="#tag">Tag 标签</a>
-                </li>
-                <li>
-                    <a href="#badge">Badge 标记</a>
-                </li>
-                <li>
-                    <a href="#breadcrumb">Breadcrumb 面包屑</a>
-                </li>
-                <li>
-                    <a href="#progress">Progress 进度条</a>
-                </li>
-                <li>
-                    <a href="#loading">Loading 加载</a>
-                </li>
-                <li>
-                    <a href="#tabs">Tabs 标签页</a>
-                </li>
-                <li>
-                    <a href="#drawer">Drawer 抽屉</a>
+                <li class="db-learn">
+                    <a href="javascript:void(0)">学习</a>
                 </li>
             </ul>
-        </div>
-        <!-- right -->
-        <!--<div class="wl-right">
-            gai方法
-        </div>-->
-        <div class="wl-right">
-            <iframe id="iframe" src="" width="100%" height="100%" frameborder="0"></iframe>
-        </div>
-    </div>
+        </nav>
+    </header>
+    <!-- 内容 -->
+    <main class="db-content">
+        <!-- banner -->
+        <section class="db-banner">
+            <div class="db-center db-box">
+                <!-- 头像 -->
+                <div class="db-img-box">
+                    <img src="img/head_portrait.jpg">
+                </div>
+                <!-- 说说 -->
+                <h2>The direction of the contrary wind is more suitable for flying.</h2>
+                <!-- 修饰线 -->
+                <div class="db-line"></div>
+            </div>
+        </section>
+        <!-- 关于我 -->
+        <section class="db-about-me">
+            <h2>关于我</h2>
+        </section>
+    </main>
+    <!-- 蒙层 -->
+    <div class="db-mask"></div>
+    <!-- 侧边栏 -->
+    <aside class="db-sidebar">
+        <ul>
+            <li>
+                <a href="javascript:void(0)" class="item">第一个</a>
+                <div class="down-box">
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="item">第一个</a>
+                <div class="down-box">
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="item">第一个</a>
+                <div class="down-box">
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="item">第一个</a>
+                <div class="down-box">
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="item">第一个</a>
+                <div class="down-box">
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                    <a href="javascript:void(0)">哈哈哈</a>
+                </div>
+            </li>
+        </ul>
+    </aside>
 </div>
-<!-- javascript -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script>
-    // iframe
-    $(".change-example-a").on('click', function (evt) {
-        evt.preventDefault(); // 阻止冒泡
-        $("#iframe").attr('src', $(this).attr("href"));
-        $(".change-example-a").removeClass('active');
-        $(this).addClass('active');
-    });
-</script>
+<script src="js/custom.js"></script>
 </body>
 </html>
