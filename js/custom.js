@@ -91,7 +91,7 @@
                     removeClass([...item.children][1], 'show')
                 }
             });
-            
+
         }
     })
 
