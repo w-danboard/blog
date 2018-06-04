@@ -30,7 +30,7 @@
     let nav = document.querySelector('.db-nav'),
         mask = document.querySelector('.db-mask'),
         sidebar = document.querySelector('.db-sidebar'),
-        downBox = document.querySelector('.down-box');
+        lisDown = sidebar.querySelectorAll('li');
 
     // 头部菜单
     nav.addEventListener('click', function (ev) {
@@ -99,6 +99,12 @@
     mask.onclick = function () {
         removeClass(this, 'show');
         removeClass(sidebar, 'show');
-        removeClass(downBox, 'show');
+        lisDown.forEach(item => {
+            let oA = item.firstElementChild,
+                downBox = item.lastElementChild;
+            console.log(oA);
+            removeClass(oA, 'active');
+            removeClass(downBox, 'show');
+        });
     };
 })();
