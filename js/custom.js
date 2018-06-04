@@ -102,7 +102,6 @@
         lisDown.forEach(item => {
             let oA = item.firstElementChild,
                 downBox = item.lastElementChild;
-            console.log(oA);
             removeClass(oA, 'active');
             removeClass(downBox, 'show');
         });
