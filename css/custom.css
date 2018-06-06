@@ -280,7 +280,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .db-sidebar ul li .down-box a {
-    padding-left: 58px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 12px 0 58px;
 }
 
 .db-sidebar ul li .down-box.show{
