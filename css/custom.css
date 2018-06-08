@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 48px;
 }
 
-.db-about-me h2{
+.db-about-me h2 {
     color: #fff;
     font-size: 32px;
     font-weight: 400;
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1002;
 }
 
-.db-sidebar.show{
+.db-sidebar.show {
     right: 0;
 }
 
@@ -283,10 +283,10 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding: 0 12px 0 58px;
+    padding: 0 12px 0 42px;
 }
 
-.db-sidebar ul li .down-box.show{
+.db-sidebar ul li .down-box.show {
     display: block;
 }
 
